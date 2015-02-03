@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 	end
 
 	def new
-		@user = User.new
+		@errors = flash[:errors]
 	end
 
 	def create
