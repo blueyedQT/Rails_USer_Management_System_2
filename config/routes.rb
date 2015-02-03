@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'users/new'
 
+  post 'users/create'
+
   get 'posts/index'
 
   get 'posts/new'
